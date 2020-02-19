@@ -2,7 +2,7 @@
 function windowLoaded(event) {
   var scheduleContent = document.getElementById("schedule-content");
 
-  scheduleContent.innerHTML = schedule;
+  scheduleContent.innerHTML = generateSchedule();
   
   setRowLinks();
 }
